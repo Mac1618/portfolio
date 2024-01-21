@@ -1,7 +1,8 @@
 // framer motion
 import { motion } from 'framer-motion';
 
-//
+
+// variants
 const variants = {
 	open: {
 		transition: {
@@ -15,8 +16,6 @@ const variants = {
 		},
 	},
 };
-
-//
 const itemVariants = {
 	open: {
 		y: 0,

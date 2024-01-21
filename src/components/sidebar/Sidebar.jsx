@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import Links from './links/Links';
 import ToggleButton from './toggeButton/ToggleButton';
 
+// variants
 const variants = {
 	open: {
 		clipPath: 'circle(1200px at 50px 50px)',

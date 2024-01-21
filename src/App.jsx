@@ -2,8 +2,6 @@ import './app.scss';
 
 // components
 import Navbar from './components/navbar/Navbar';
-// import Test from './Test';
-
 
 function App() {
 	return (
