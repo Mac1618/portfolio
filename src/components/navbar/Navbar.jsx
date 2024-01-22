@@ -6,8 +6,8 @@ const Navbar = () => {
 		<nav className="navbar h-[100px] relative">
 			{/* Sidebar */}
 			<Sidebar />
-			<div className="wrapper px-[8%] w-full m-auto flex justify-between items-center h-full bg-[#663399]">
-				<span className="font-bold">Mark Laurence Bongulto</span>
+			<div className="wrapper relative px-[8%] w-full m-auto flex justify-between items-center h-full ">
+				<span className="font-bold">MY PORTFOLIO</span>
 				<div className="social flex gap-5">
 					<a href="#">
 						<img src="/facebook.png" alt="facebook image" width={24} height={24} />
