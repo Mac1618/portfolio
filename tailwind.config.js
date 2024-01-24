@@ -4,10 +4,10 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'img-mountains': 'url(./public/mountains.png)',
-				'img-planets': 'url(./public/planets.png)',
-				'img-stars': 'url(./public/stars.png)',
-				'img-sun': 'url(./public/sun.png)',
+				'img-mountains': 'url(/mountains.png)',
+				'img-planets': 'url(/planets.png)',
+				'img-stars': 'url(/stars.png)',
+				'img-sun': 'url(/sun.png)',
 			},
 		},
 	},
