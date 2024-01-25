@@ -23,7 +23,7 @@ const Portfolio = () => {
 
 	return (
 		<div className="portfolio relative" ref={ref}>
-			<div className="progress sticky top-0 left-0 pt-12  text-center text-orange-400 text-5xl font-semibold">
+			<div className="progress sticky top-0 left-0 pt-12  text-center text-orange-400 text-5xl font-semibold max-sm:pt-[15%]">
 				<h2>Featured Works</h2>
 				<motion.div style={{ scaleX: scaleX }} className="porgressBar h-2 bg-white"></motion.div>
 			</div>

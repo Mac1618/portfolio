@@ -6,9 +6,9 @@ const Navbar = () => {
 		<nav className="navbar h-[100px] relative">
 			{/* Sidebar */}
 			<Sidebar />
-			<div className="wrapper relative px-[8%] w-full m-auto flex justify-between items-center h-full ">
+			<div className="wrapper relative px-[8%] w-full m-auto flex justify-between items-center h-full max-sm:flex-col max-sm:justify-center">
 				<span className="font-bold">MY PORTFOLIO</span>
-				<div className="social flex gap-5">
+				<div className="social flex gap-5 max-sm:gap-10 max-sm:mt-3">
 					<a href="#">
 						<img src="/facebook.png" alt="facebook image" width={24} height={24} />
 					</a>

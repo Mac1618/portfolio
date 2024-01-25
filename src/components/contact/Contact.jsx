@@ -79,7 +79,7 @@ const Contact = () => {
 
 	return (
 		<motion.div variants={variants} initial="initial" whileInView="animate">
-			<div className="py-8 lg:py-12 px-4 mx-auto max-w-screen-md">
+			<div className="py-8 lg:py-12 px-4 mx-auto max-w-screen-md max-sm:pt-[20%]">
 				<motion.h2
 					className="mb-4 text-4xl tracking-tight font-extrabold text-center"
 					variants={variants}
@@ -87,7 +87,7 @@ const Contact = () => {
 					Let&apos;s Work Together
 				</motion.h2>
 				<motion.p
-					className="mb-6 lg:mb-12 font-light text-center text-gray-500  sm:text-lg"
+					className="mb-6 lg:mb-12 font-light text-center text-gray-500  sm:text-lg max-sm:mb-[20%]"
 					variants={variants}
 				>
 					Got a technical issue? Want to send feedback about a beta feature? Need details about our
