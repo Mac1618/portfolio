@@ -1,7 +1,6 @@
 // framer motion
 import { motion } from 'framer-motion';
 
-
 // variants
 const variants = {
 	open: {
@@ -28,7 +27,7 @@ const itemVariants = {
 };
 
 const Links = () => {
-	const items = ['Homepage', 'Services', 'Portfolio', 'Contact', 'About'];
+	const items = ['Homepage', 'Services', 'Portfolio', 'Contact'];
 	return (
 		<motion.div
 			className="links absolute w-full h-full flex  flex-col items-center justify-start pt-20 gap-5"

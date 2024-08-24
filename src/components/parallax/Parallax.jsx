@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useRef } from 'react';
 
 // framer motion
@@ -28,7 +29,7 @@ const Parallax = ({ type }) => {
 				style={{ y: textBg }}
 				className="text-6xl font-semibold font-sans z-0 max-sm:text-3xl"
 			>
-				{type === 'services' ? 'What We Do?' : 'What We Did?'}
+				{type === 'services' ? 'What I Do?' : 'What I Did?'}
 			</motion.h1>
 			<motion.div className="mountains absolute bg-img-mountains w-full h-full bg-cover z-30 max-sm:hidden"></motion.div>
 			<motion.div
@@ -43,6 +44,11 @@ const Parallax = ({ type }) => {
 			></motion.div>
 		</div>
 	);
+};
+
+// Define the expected prop types
+Parallax.propTypes = {
+	type: PropTypes.string.isRequired,
 };
 
 export default Parallax;

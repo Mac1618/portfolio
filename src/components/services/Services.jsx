@@ -81,11 +81,14 @@ const Services = () => {
 					className="w-[40rem] p-10 h-full border-gray-600 border-[0.5px] hover:bg-gray-300 hover:text-black cursor-pointer max-sm:max-w-full max-sm:p-2"
 				>
 					<h2 className="mb-3 font-bold text-lg h-14 max-sm:h-6 max-sm:text-md">
-						MERN Stack Development
+						Front-End Development
 					</h2>
 					<p className="text-sm ">
-						Craft modern web applications with a seamless user experience using the MERN stack. From
-						concept to deployment, ensure a robust and responsive user interface.
+						I specialize in front-end development, creating dynamic and visually appealing user
+						interfaces with React.js. I efficiently manage state using Zustand, design responsive
+						layouts with TailwindCSS, and implement sleek components with ShadcnUI. I also integrate
+						Lucide React Icons for intuitive visuals, Sonner for streamlined notifications, and
+						React-pdf for generating and displaying PDF documents directly within web applications.
 					</p>
 				</motion.div>
 				<motion.div
@@ -93,11 +96,15 @@ const Services = () => {
 					className="w-[40rem] p-10 h-full border-gray-600 border-[0.5px] hover:bg-gray-300 hover:text-black cursor-pointer max-sm:max-w-full max-sm:p-2"
 				>
 					<h2 className="mb-3 font-bold text-lg h-14 max-sm:h-6 max-sm:text-md">
-						Secure Authentication Solutions
+						Back-End Development
 					</h2>
 					<p className="text-sm ">
-						Implement secure user authentication and authorization. Safeguard sensitive data and
-						functionalities, providing users with confidence in interacting with your application.
+						I specialize in back-end development, creating robust and scalable server-side
+						applications with Express.js. My expertise includes working with databases like MongoDB,
+						MySQL, and PostgreSQL, with Mongoose and Prisma for efficient data modeling. I implement
+						secure authentication with JSON Web Tokens and Bcrypt, and handle API communication
+						using Axios. I also use Postman for API testing and deploy my applications seamlessly on
+						platforms like Vercel or Render.
 					</p>
 				</motion.div>
 				<motion.div
@@ -105,24 +112,14 @@ const Services = () => {
 					className="w-[40rem] p-10 h-full border-gray-600 border-[0.5px] hover:bg-gray-300 hover:text-black cursor-pointer max-sm:max-w-full max-sm:p-2"
 				>
 					<h2 className="mb-3 font-bold text-lg h-14 max-sm:h-12 max-sm:text-md">
-						Efficient MongoDB Database Management
+						Next.js Application Development
 					</h2>
 					<p className="text-sm ">
-						Optimize database performance with expert MongoDB and Mongoose skills. Ensuring
-						scalability and responsiveness.
-					</p>
-				</motion.div>
-				<motion.div
-					variants={variants}
-					className="w-[40rem] p-10 h-full border-gray-600 border-[0.5px] hover:bg-gray-300 hover:text-black cursor-pointer max-sm:max-w-full max-sm:p-2"
-				>
-					<h2 className="mb-3 font-bold text-lg h-14 max-sm:h-12 max-sm:text-md">
-						Next.js 14 and Tailwind CSS Development
-					</h2>
-					<p className="text-sm ">
-						Stay ahead with Next.js 14 for web application development, featuring server-side
-						rendering, routing, and performance optimization. Combine with Tailwind CSS for
-						efficient and visually appealing styling, delivering cutting-edge user interfaces.
+						developing sophisticated web applications with Next.js, utilizing file-based routing for
+						efficient navigation and implementing server actions for seamless server-side logic. I
+						prioritize robust authentication and authorization processes to ensure secure user
+						access, and I leverage middleware to optimize performance and enhance security across
+						the application.
 					</p>
 				</motion.div>
 			</motion.div>

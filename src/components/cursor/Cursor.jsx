@@ -24,12 +24,12 @@ const Cursor = () => {
 		};
 	}, []);
 
-	console.log(position);
+	// console.log(position);
 
 	return (
 		<motion.div
 			className="w-12 h-12 rounded-full border-white border-2 fixed z-[999]"
-			animate={{x: position.x, y: position.y}}
+			animate={{ x: position.x, y: position.y }}
 		></motion.div>
 	);
 };

@@ -95,12 +95,14 @@ const Contact = () => {
 				</motion.p>
 				<motion.form ref={formRef} onSubmit={sendEmail} className="space-y-6" variants={variants}>
 					<motion.div variants={variants}>
-						<label className="block mb-2 text-sm font-medium text-white ">Your Name</label>
+						<label className="block mb-2 text-sm font-medium text-white ">
+							Your Name / Company
+						</label>
 						<input
 							type="text"
 							name="name"
 							className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-1.5 "
-							placeholder="name@flowbite.com"
+							placeholder="John Doe of Company X"
 							required
 						/>
 					</motion.div>
@@ -110,7 +112,7 @@ const Contact = () => {
 							type="email"
 							name="email"
 							className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-1.5 "
-							placeholder="name@flowbite.com"
+							placeholder="exaple@domain.com"
 							required
 						/>
 					</motion.div>
